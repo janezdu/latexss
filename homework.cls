@@ -13,9 +13,9 @@
 
 %% YOUR INFO HERE
 %-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
-\author{Jane Doe --- zd53}
+\author{Jane Doe --- id123}
 
-\newcommand{\class}{CS 2800: Discrete Structures}
+\newcommand{\class}[1]{\gdef\class{#1}}
 \newcommand{\homework}[2]{\title{Homework #1#2}}
 %-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
 
