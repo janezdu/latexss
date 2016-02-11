@@ -1,0 +1,35 @@
+\documentclass{homework}
+
+\class{CS 1234: Repeatedly Greeting the Universe}
+\homework{2}{: How to Count}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+  \item 
+  \begin{enumerate}
+    \item
+    \begin{itemize}
+      \item I can count!
+      \item Of course I can count.
+      \item Counting is cool.
+    \end{itemize}
+    \item \TODO
+  \end{enumerate}
+  \item 
+  \begin{proof}
+      Let $P(n)$ be the statement that $\sum_{i=1}^{n}i = \frac{n(n + 1)}{2}$.\\
+      \bc $P(1)$ is true, since $\frac{1*(1+1)}{2}= 1$.\\
+      \is Assume that $P(k)$ is true where $k$ is an arbitrary fixed integer greater than 1. We will prove that $P(k)$ is true; in other words, that $\sum_{i=1}^{n+1}i = \frac{(n+1)(n + 2)}{2}$
+      \begin{align*}
+      \sum_{i=1}^{n+1}i &=\sum_{i=1}^{n}i + n + 1 \numberthis \label{cooleqn}\\
+      &= \frac{n(n + 1)}{2} + (n+1)\ih\\
+      &= \frac{n(n + 1) + 2(n+1)}{2}\numberthis\\
+      &= \frac{(n+1)(n + 2)}{2} 
+      \end{align*}
+      This completes the inductive steps. Thus, by mathematical induction, $P(n)$ is true for all integers $n$ with $n \ge 1$.
+  \end{proof}
+  \item Wow, \eqref{cooleqn} is a cool equation.
+\end{enumerate}
+\end{document}
