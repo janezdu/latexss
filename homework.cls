@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{hw}
+\ProvidesClass{homework}
 \LoadClass[10pt]{article}
 
 %% WHERE TO START
@@ -7,7 +7,7 @@
 
 % Quick start: 
 % 1) Download this file and copy it into the directory where your .TeX file is.
-% 2) Add \LoadClass{hw} to the top of your .TeX file.
+% 2) Add \LoadClass{homework} to the top of your .TeX file.
 
 %-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
 
