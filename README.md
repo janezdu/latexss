@@ -22,6 +22,7 @@ The general-purpose macros that I use in all files.
 
 <h3>Homework --- hw.cls</h3>
 A problem set template. 
+- **IMPORTANT**: When inserting the name of the homework (e.g. in "Homework 1: How to Count", the "How to Count"), insert ": " before the name if you insert one, or leave it out entirely. 
 - Simple header with easy insertion for name, class, homework number, homework name.
 - Made for CS 2800: Discrete Structures at Cornell University; personalized functions are tailored for proofs and associated labels.
 - Tools for Proof by Induction:
