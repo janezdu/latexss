@@ -9,11 +9,15 @@ Table of Contents
 - [Background](#background)
 
 <h3>Getting Started</h3>
+<h5>LaTeX Basics </h5>
 - Online: [ShareLaTeX](https://www.sharelatex.com/) and [Overleaf](https://www.overleaf.com/) are great places to start. Make an account for free, and check out their examples and tutorials!
 - You can also download MacTeX for Mac users, and MikTeX or TeXlive for Windows, or TeXlive or tetex for Linux.
 - Check out this great guide by [LaTeXTools](https://github.com/SublimeText/LaTeXTools)
-- Download this file and copy it into the directory where your .TeX file is, and add \LoadClass{homework} to the top of your .TeX file.
 
+<h5> Modifying Class Files </h5>
+- Download this file and copy it into the directory where your .TeX file is, and add \LoadClass{homework} to the top of your .TeX file.
+- Inside the class file, change your name inside the \author macro.
+- Inside your TeX file, change 
 
 <h3>General Features</h3>
 The general-purpose macros that I use in all files.
