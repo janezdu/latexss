@@ -17,12 +17,12 @@ Table of Contents
 <h5> Modifying Class Files </h5>
 - Download this file and copy it into the directory where your .TeX file is, and add \LoadClass{homework} to the top of your .TeX file.
 - Inside the class file, change your name inside the \author macro.
-- Inside your TeX file, change 
+- Inside your TeX file, change your class name and the title of the assignment.
 
 <h3>General Features</h3>
 The general-purpose macros that I use in all files.
 - Highlighting: use \yhighlight{} or \rhighlight{} to highlight text yellow and red, respectively.
-- TODO: use \TODO to insert a red TODO marker inside your pdf
+- TODO: use \TODO to insert a red TODO marker inside your pdf.
 
 <h3>Homework --- hw.cls</h3>
 A problem set template. 
